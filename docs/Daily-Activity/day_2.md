@@ -1,12 +1,33 @@
-# 2. Activity of Day 2
+# 2. Day 2 – Digital Modeling for Fabrication
 
-## Research
+## Overview
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Day 2 focused on digital modeling for fabrication, introducing both 3D parametric modeling and 2D vector design.
+The goal was to understand how simple, fabrication-ready geometry is created using appropriate software tools.
 
-## References & Inspiration
+Two modeling activities were completed:
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    A 3D L-Shaped Mounting Bracket using FreeCAD
+
+    A 2D Press-Fit Box Panel using Inkscape
+
+## Activity 1 – FreeCAD Model  
+### L-Shaped Mounting Bracket (3D)
+
+!!! info "Design Goal"
+    Create a simple **L-shaped mounting bracket** that demonstrates basic 3D modeling operations used in fabrication.
+
+### Design Characteristics
+- Two flat faces at **90°**
+- Two circular holes for screws or bolts
+- Simple geometry with no complex curves
+- One **filleted corner** for safety and manufacturability
+![](./images/profile.jpg){ width=200 align=right }
+---
+
+### Modeling Workflow (FreeCAD)
+
+
 
 
 * Download reference

@@ -21,7 +21,7 @@ This is an example of how you can structure your documentation, including ways o
 
 ## About me
 
-![](./images/avatar-photo.jpg){ width=200 align=right }
+![](./images/profile.jpg){ width=200 align=right }
 
 _you can introduce yourself in many ways! audio, images, video.._
 
