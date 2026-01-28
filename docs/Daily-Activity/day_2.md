@@ -82,8 +82,8 @@ The following steps describe the process used to model the **L-Shaped Mounting B
     - Selected the sharp edges to rould of the bracket and
     - Applied **Fillet** to remove the sharpness and make them smooth.
 
-![Filleted corner](../images/day_2/activity1/sketch7.png){ width = 300 align = left }
-![Filleted corner](../images/day_2/activity1/sketch8.png){ width = 300 }
+![Filleted corner](../images/day_2/activity1/a19a.png){ width = 300 align = left }
+![Filleted corner](../images/day_2/activity1/a19b.png){ width = 300 }
 
 ---
 
@@ -152,8 +152,7 @@ Key modeling considerations:
 
 === "Result"
 
-![](../images/day_2/activity2/b4.png){width=300 align=left}
-![](../images/day_2/activity2/result.png){width=300 }
+![](../images/day_2/activity2/result.png){width=500 }
 
 
 ---
