@@ -115,12 +115,11 @@ The following steps describe the process used to model the **L-Shaped Mounting B
 - Geometry designed to slide and lock with other panels
 - Entirely **2D vector-based design** 
 
-Key modeling considerations:
+Key considerations:
 
-- **1:1 scale design** to ensure accurate real-world dimensions
-- Use of **clean paths** for precise laser cutting
-- Careful measurement of **slot width** based on material thickness
-- Alignment of slots to allow tight **press-fit assembly**
+- 1:1 scale design to ensure accurate real-world dimensions
+- Use of clean paths for precise vector geometry
+- Slot accuracy – Proper sizing for press-fit assembly
 
 ### Modeling Approach (Inkscape)
 
@@ -129,7 +128,7 @@ Key modeling considerations:
 - Created rectangle shapes representing box panels.
 - Added tabs that allow the boxes to fit into each other.
 
-![](../images/day_2/activity2/b1.png){ width=400 }
+![create rectangle boxes](../images/day_2/activity2/b1.png){ width=400 }
 
 ---
 
@@ -138,7 +137,7 @@ Key modeling considerations:
 - Used the **Union** tool in Inkscape to merge the tabs and box shapes.
 - Ensured the sizes were correct so the boxes can fit into each other.
 
-![](../images/day_2/activity2/b2.png){ width=400 }
+![union](../images/day_2/activity2/b2.png){ width=400 }
 
 ---
 
@@ -146,13 +145,13 @@ Key modeling considerations:
 
 - Used the **Difference** tool to create holes in the box panels.
 
-![](../images/day_2/activity2/b3.png){ width=400 }
+![holes](../images/day_2/activity2/b3.png){ width=400 }
 
 ---
 
 === "Result"
 
-![](../images/day_2/activity2/result.png){width=500 }
+![Final result](../images/day_2/activity2/result.png){width=500 }
 
 
 ---
