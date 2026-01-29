@@ -31,11 +31,11 @@ The material was placed on the laser cutter **honeycomb bed**, and the laser foc
 ### 4. Engraving Process
 Engraving was performed first using **lower power and appropriate speed settings** to mark the design without cutting through the material.
 
-![Laser engraving in progress](../images/day_5/day5_2.jpeg)
+![Laser engraving in progress](../images/day_5/Day5_2.jpeg)
 
 ---
 
 ### 5. Cutting Process
 After engraving, the laser parameters were adjusted to higher power settings to **cut the final shape** from the material.
 
-![Final output](../images/day_5/day5_3.jpeg)
+![Final output](../images/day_5/Day5_3.jpeg)

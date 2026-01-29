@@ -16,7 +16,7 @@ The documentation is built using **MkDocs with the Material theme** and version-
 ![](./images/profile.jpg){ width=200 align=right }
 
 Hi! My name is **Andrinah Kaunda**.  
-I am a technology enthusiast with a background in **computer network engineering, software development, and digital fabrication**.
+I am a technology enthusiast with a background in **Computer Science**.
 
 I am passionate about combining **design, electronics, and fabrication** to build practical and innovative solutions.  
 This website serves as a record of my learning journey, experiments, and reflections during the course.
