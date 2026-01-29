@@ -4,18 +4,10 @@ glightbox: false
 
 # My documentation
 
-This is an example of participant's documentation for the Fabricademy program.
+Welcome to my digital fabrication and modeling documentation website.  
+This site documents my learning process, design decisions, and fabrication workflows throughout the course.
 
-You can edit it on [Github](http://github.com/R-INYURU). The software used turns simple text files written in [Markdown](https://en.wikipedia.org/wiki/Markdown) format, into the site you are navigating.
-
-Each time you change a page using the Gitlab interface, the site is rebuilt and all the changes published
-in few minutes.
-
-If this is your site, go on and edit this page clicking the Gitlab link on the upper right, changing the text below and deleting this.
-
-No worries, you can't break anything, all the changes you make are saved under [Version Control](https://en.wikipedia.org/wiki/Version_control) using [GIT](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control). This means that you have all the different versions of your page saved and available all the time in the Gitlab interface.
-
-This is an example of how you can structure your documentation, including ways of adding images, videos, tables e.t.c. Once you start editing make sure that you delete the examples and you make this page yours.
+The documentation is built using **MkDocs with the Material theme** and version-controlled using **GitHub**, allowing changes to be tracked and published continuously.
 
 
 
@@ -23,20 +15,18 @@ This is an example of how you can structure your documentation, including ways o
 
 ![](./images/profile.jpg){ width=200 align=right }
 
-_you can introduce yourself in many ways! audio, images, video.._
+Hi! My name is **Andrinah Kaunda**.  
+I am a technology enthusiast with a background in **computer network engineering, software development, and digital fabrication**.
 
-Hi! I am Emma Brewer. I am an art director & graphic designer based in New York City working on branding, visual identities, editorial design and web design.
-
-_the image above has a prefixed width and is aligned on the right side_
-
-
-_below an example from the documentation of both [Sara Alvarez](https://class.textile-academy.org/2021/sara.alvarez/) TextileLab Amsterdam 2020-21 and [Diane Wakim](https://class.textile-academy.org/2021/diane.wakim/) Le TextileLab Lyon_
-
+I am passionate about combining **design, electronics, and fabrication** to build practical and innovative solutions.  
+This website serves as a record of my learning journey, experiments, and reflections during the course.
 
 
 ## My background
 
-I was born in a nice city called..
+I am originally from Malawi. 
+i hold a Bachelor of Science Degree in Computer Science.
+i am Current pursuing a Master of Science degree in Internet of Things: Embedded Computing Systems at the University of Rwanda , African Centre Of Excellence
 
 <!-- This below clears both sides under "aligned" images - see two images above.
 Can also be used just as "clear: right;" rather than "clear: both;", if you are using an image on the right, for example.
