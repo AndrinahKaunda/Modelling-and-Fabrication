@@ -651,12 +651,7 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#understanding-traces-clearance-pads-vias" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -665,14 +660,13 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Understanding Traces, Clearance, Pads &amp; Vias">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#milling-drilling-board-profiling" class="md-nav__link">
+  <a href="#phyical-fabrication-process" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Milling, Drilling &amp; Board Profiling
+        Phyical fabrication process
       
     </span>
   </a>
@@ -685,44 +679,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#actual-implementation-pcb-milling" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Actual Implementation – PCB Milling
+        Implementation
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#milling-the-traces" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Milling the Traces
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Milling the Traces">
+    <nav class="md-nav" aria-label="Implementation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cutting-the-board-outline" class="md-nav__link">
+  <a href="#final-pcb" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cutting the Board Outline
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Result
+        Final PCB
       
     </span>
   </a>
@@ -855,12 +827,7 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#understanding-traces-clearance-pads-vias" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -869,14 +836,13 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Understanding Traces, Clearance, Pads &amp; Vias">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#milling-drilling-board-profiling" class="md-nav__link">
+  <a href="#phyical-fabrication-process" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Milling, Drilling &amp; Board Profiling
+        Phyical fabrication process
       
     </span>
   </a>
@@ -889,44 +855,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#actual-implementation-pcb-milling" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Actual Implementation – PCB Milling
+        Implementation
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#milling-the-traces" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Milling the Traces
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Milling the Traces">
+    <nav class="md-nav" aria-label="Implementation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cutting-the-board-outline" class="md-nav__link">
+  <a href="#final-pcb" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cutting the Board Outline
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Result
+        Final PCB
       
     </span>
   </a>
@@ -959,132 +903,89 @@
 
 
 <h1 id="7-activity-of-day-7">7. Activity of Day 7<a class="headerlink" href="#7-activity-of-day-7" title="Permanent link">¶</a></h1>
-<h2 id="pcb-milling-cutting">PCB Milling  &amp; Cutting<a class="headerlink" href="#pcb-milling-cutting" title="Permanent link">¶</a></h2>
-<p>PCB milling is a subtractive fabrication process that that carves circuits from copper-clad board .
-Designing with milling in mind ensures a smooth transition from digital concept to physical board. 
-milling-friendly designs are typically single-sided to simplify the process.
-Prioritize through-hole or large SMD components due to tool size limitations.
-Key considerations include tool size, trace spacing, and board thickness.
-Always design for the machine, not just the circuit – this is paramount for successful
-milling.</p>
+<h2 id="pcb-milling-cutting">PCB Milling &amp; Cutting<a class="headerlink" href="#pcb-milling-cutting" title="Permanent link">¶</a></h2>
+<p>PCB milling is a <strong>subtractive fabrication process</strong> hat carves circuits from a copper-clad board.</p>
+<p>Designing with milling in mind ensures a smooth transition from the digital PCB design to a functional physical board.</p>
+<p>Milling-friendly designs are typically <strong>single-sided</strong> to simplify fabrication and reduce errors.<br>
+Due to tool size limitations, <strong>through-hole components or large SMD components</strong> are preferred.<br>
+Key design considerations include <strong>tool diameter, trace spacing, clearance, and board thickness</strong>.</p>
 <h3 id="the-essence-of-pcb-milling">The Essence of PCB Milling<a class="headerlink" href="#the-essence-of-pcb-milling" title="Permanent link">¶</a></h3>
-<p>PCB milling allows you to:</p>
+<p>PCB milling allows designers to:</p>
 <ul>
-<li>precisely removed from a copper-clad board to define the circuit (0 subtractive Process).  </li>
-<li>Rapidly prototype and test designs in-house.  </li>
-<li>Fabricate boards independently without waiting for external manufacturers.  </li>
+<li>Precisely remove copper from a copper-clad board to define circuit traces (<strong>subtractive process</strong>).  </li>
+<li>Rapidly prototype and test PCB designs in-house.  </li>
+<li>Fabricate boards independently without relying on external manufacturers, reducing time and cost.</li>
 </ul>
-<h2 id="understanding-traces-clearance-pads-vias">Understanding Traces, Clearance, Pads &amp; Vias<a class="headerlink" href="#understanding-traces-clearance-pads-vias" title="Permanent link">¶</a></h2>
+<h3 id="understanding-traces-clearance-pads-vias">Understanding Traces, Clearance, Pads &amp; Vias<a class="headerlink" href="#understanding-traces-clearance-pads-vias" title="Permanent link">¶</a></h3>
 <ol>
-<li>Trace Width- Affects current carrying capacity and machinability. Wider traces
-are more robust.</li>
-<li>Clearance- The isolation space between traces and copper areas. Crucial for
-preventing shorts.</li>
-<li>Pads- Must be sufficiently large to ensure reliable soldering and
-structural integrity.</li>
-<li>Vias -Often challenging to mill, consider replacing with jumpers for
-simpler prototypes.</li>
+<li>
+<p><strong>Trace Width</strong><br>
+   Determines current-carrying capacity and machinability. Wider traces are stronger and easier to mill.</p>
+</li>
+<li>
+<p><strong>Clearance</strong><br>
+   Maintains isolation between traces and copper areas to prevent short circuits.</p>
+</li>
+<li>
+<p><strong>Pads</strong><br>
+   Are large enough to support reliable soldering and maintain mechanical stability.</p>
+</li>
+<li>
+<p><strong>Vias</strong><br>
+   Are difficult to mill on single-sided boards and are often replaced with wire jumpers in prototypes.</p>
+</li>
 </ol>
-<h3 id="milling-drilling-board-profiling">Milling, Drilling &amp; Board Profiling<a class="headerlink" href="#milling-drilling-board-profiling" title="Permanent link">¶</a></h3>
-<p>The physical fabrication involves three distinct stages, each requiring precision and proper sequencing.
-- Trace Isolation :The milling tool removes copper around
-traces, creating the circuit paths.
-- Hole Drilling: Precise holes are drilled for component leads and vias.
-- Board Profiling: The final step, cutting the complete PCB outline from the stock material</p>
-<h2 id="actual-implementation-pcb-milling">Actual Implementation – PCB Milling<a class="headerlink" href="#actual-implementation-pcb-milling" title="Permanent link">¶</a></h2>
-<div class="admonition info">
-<p class="admonition-title">Recap</p>
-</div>
-<p>For this session, the work is built upon <strong>Day 3</strong>, where we created the PCB design file in KiCad . we designed esigning a single-sided PCB using KiCad that:
-   - Uses an ATtiny45 microcontroller
-   - Controls an LED using a push button
-   - Can be programmed via a 6-pin ISP header
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_3/view2_route.png" data-desc-position="bottom"><img alt="" src="../../images/day_3/view2_route.png" width="400"></a>
-suitable for PCB milling and soldering This project  file included the schematic, component placement, and routed tracks, which were verified and prepared for fabrication.  we will use this same file as the basis for Pcb milling </p>
-<p>== "step1:" 
-- mounted the milling tool to machine. 
-- download and install carbide motion 
-- in the project folder (Microcontroller_PCB_Design- in our case) you will find gerber folder with gerber files.
-- connect cutter to carbide mortion
-- import the gerber file into carbide motion and carbide motion  which makes the files into into one file which will be used.
-- Then adjusted the postion of the cutter tool so it mill the pcb routes , adjust depth , speed </p>
-<p>== "step2:" </p>
-<p>-A copper-clad board was securely mounted on the cutter bed using cell tape , and the machine origin was set correctly.
-- once all conficurion are done it  Engraved the copper traces according to the design </p>
-<h2 id="milling-the-traces">Milling the Traces<a class="headerlink" href="#milling-the-traces" title="Permanent link">¶</a></h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_1.jpeg" data-desc-position="bottom"><img alt="" src="../../images/day_7/day7_1.jpeg"></a></p>
-<p>step 3:</p>
+<h3 id="phyical-fabrication-process">Phyical fabrication process<a class="headerlink" href="#phyical-fabrication-process" title="Permanent link">¶</a></h3>
+<p>Phyical fabrication  involves three main stages:</p>
 <ul>
-<li>once that is done chande the milling tool (spindle) use the one for Cut the board outline</li>
+<li>Trace Isolation– The milling tool removes copper around traces, creating the circuit paths.  </li>
+<li>Hole Drilling – Holes are drilled for component leads and mounting points.  </li>
+<li>Board Profiling – The PCB outline is cut to separate the board from the raw material.</li>
 </ul>
-<h3 id="cutting-the-board-outline">Cutting the Board Outline<a class="headerlink" href="#cutting-the-board-outline" title="Permanent link">¶</a></h3>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_2.jpeg" data-desc-position="bottom"><img alt="" src="../../images/day_7/day7_2.jpeg"></a></p>
-<p>== "Result" 
-- resulting in a fabricated PCB ready for cleaning and component soldering.</p>
-<h3 id="result">Result<a class="headerlink" href="#result" title="Permanent link">¶</a></h3>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day.jpeg" data-desc-position="bottom"><img alt="" src="../../images/day_7/day.jpeg"></a></p>
-<h1 id="7-activity-of-day-7_1">7. Activity of Day 7<a class="headerlink" href="#7-activity-of-day-7_1" title="Permanent link">¶</a></h1>
-<h2 id="pcb-milling-cutting_1">PCB Milling &amp; Cutting<a class="headerlink" href="#pcb-milling-cutting_1" title="Permanent link">¶</a></h2>
-<p>PCB milling is a subtractive fabrication process that carves circuits from a copper-clad board.   </p>
-<h3 id="the-essence-of-pcb-milling_1">The Essence of PCB Milling<a class="headerlink" href="#the-essence-of-pcb-milling_1" title="Permanent link">¶</a></h3>
-<p>PCB milling allows you to:</p>
-<ul>
-<li>Precisely remove material from a copper-clad board to define the circuit (<strong>subtractive process</strong>).  </li>
-<li>Rapidly prototype and test designs in-house.  </li>
-<li>Fabricate boards independently without waiting for external manufacturers.  </li>
-</ul>
-<h3 id="understanding-traces-clearance-pads-vias_1">Understanding Traces, Clearance, Pads &amp; Vias<a class="headerlink" href="#understanding-traces-clearance-pads-vias_1" title="Permanent link">¶</a></h3>
-<ol>
-<li><strong>Trace Width</strong> – Affects current carrying capacity and machinability. Wider traces are more robust.  </li>
-<li><strong>Clearance</strong> – The isolation space between traces and copper areas. Crucial for preventing shorts.  </li>
-<li><strong>Pads</strong> – Must be sufficiently large to ensure reliable soldering and structural integrity.  </li>
-<li><strong>Vias</strong> – Often challenging to mill; consider replacing with jumpers for simpler prototypes.  </li>
-</ol>
-<hr>
-<h3 id="milling-drilling-board-profiling_1">Milling, Drilling &amp; Board Profiling<a class="headerlink" href="#milling-drilling-board-profiling_1" title="Permanent link">¶</a></h3>
-<p>The physical fabrication involves three distinct stages:</p>
-<ul>
-<li><strong>Trace Isolation</strong> – The milling tool removes copper around traces, creating the circuit paths.  </li>
-<li><strong>Hole Drilling</strong> – Precise holes are drilled for component leads and vias.  </li>
-<li><strong>Board Profiling</strong> – The final step, cutting the complete PCB outline from the stock material.  </li>
-</ul>
-<hr>
-<h2 id="actual-implementation-pcb-milling_1">Actual Implementation – PCB Milling<a class="headerlink" href="#actual-implementation-pcb-milling_1" title="Permanent link">¶</a></h2>
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">¶</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Recap from Day 3</p>
-<p>This session builds upon <strong>Day 3</strong>, where we created a single-sided PCB design in KiCad:<br>
-- Used ATtiny45 microcontroller<br>
-- LED controlled by a push button<br>
-- 6-pin ISP header for programming<br>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_3/view2_route.png" data-desc-position="bottom"><img alt="" src="../../images/day_3/view2_route.png" width="400"></a>  </p>
+<p>This activity builds on <strong>Day 3</strong>, where a single-sided PCB is designed in KiCad:</p>
+<ul>
+<li>ATtiny45 microcontroller  </li>
+<li>LED controlled using a push button  </li>
+<li>6-pin ISP header for programming  </li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_3/view2_route.png" data-desc-position="bottom"><img alt="" src="../../images/day_3/view2_route.png" width="400"></a></p>
+<p>The schematic, component placement, and routed tracks are verified and prepared for fabrication.<br>
+This same design file is used for the PCB milling process.</p>
 </div>
-<p>The schematic, component placement, and routed tracks were verified and prepared for fabrication.<br>
-We will use this same file as the basis for PCB milling.</p>
 <p>== "Step 1: Preparation"</p>
 <ul>
-<li>Mount the milling tool.  </li>
-<li>Secure the copper-clad board on the cutter bed using cell tape.  </li>
-<li>Download and install <strong>Carbide Motion</strong>.  </li>
-<li>In the project folder (<code>Microcontroller_PCB_Design</code>), locate the <code>gerber</code> folder with Gerber files.  </li>
-<li>Connect the cutter to Carbide Motion.  </li>
-<li>Import the Gerber files into Carbide Motion; it combines them into one file for milling.  </li>
-<li>Adjust the <strong>cutter tool position</strong>, depth, and speed configuration.  </li>
+<li>The milling tool is mounted onto the machine.  </li>
+<li><strong>Carbide Motion</strong> software is downloaded and installed.  </li>
+<li>The copper-clad board is secured on the cutter bed using double-sided tape.  </li>
+<li>In the project folder (in our case :Microcontroller_PCB_Design), the <strong>Gerber folder</strong> containing Gerber files is located.  </li>
+<li>The cutter is connected to Carbide Motion.  </li>
+<li>Gerber files are imported into Carbide Motion, which combines them into a single milling job.  </li>
+<li>Tool position, cutting depth, and speed parameters are carefully configured in Carbide motion.  </li>
 </ul>
 <p>== "Step 2: Milling the Traces"</p>
 <ul>
-<li>Set the machine origin correctly.  </li>
-<li>Once all configuration is done, engrave the copper traces according to the design.<br>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_1.jpeg" data-desc-position="bottom"><img alt="Milling" src="../../images/day_7/day7_1.jpeg"></a></li>
+<li>The machine origin is set correctly.  </li>
+<li>Once all configurations are verified, the machine engraves the copper traces according to the PCB design.  </li>
 </ul>
-<p>== "Step 3: Cutting the Board Outline"
-- Change the milling tool (spindle) to the one used for cutting the board outline.
-- adjust adjust the cutter tool again (e.g position)</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_2.jpeg" data-desc-position="bottom"><img alt="Cutting" src="../../images/day_7/day7_2.jpeg"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_1.jpeg" data-desc-position="bottom"><img alt="Milling Traces" src="../../images/day_7/day7_1.jpeg"></a></p>
+<hr>
+<p>== "Step 3: Cutting the Board Outline"</p>
+<ul>
+<li>The milling bit is changed to the tool used for board profiling.  </li>
+<li>Tool position and depth are re-adjusted.  </li>
+<li>The machine cuts the PCB outline from the copper-clad board.  </li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_2.jpeg" data-desc-position="bottom"><img alt="Cutting Outline" src="../../images/day_7/day7_2.jpeg"></a></p>
+<hr>
 <p>== "Result"</p>
 <ul>
-<li>The final PCB is ready for <strong>cleaning and component soldering</strong>.  </li>
+<li>The final PCB is successfully fabricated.  </li>
+<li>The board is ready for cleaning and component soldering.  </li>
 </ul>
-<h3 id="result_1">Result<a class="headerlink" href="#result_1" title="Permanent link">¶</a></h3>
+<h3 id="final-pcb">Final PCB<a class="headerlink" href="#final-pcb" title="Permanent link">¶</a></h3>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day.jpeg" data-desc-position="bottom"><img alt="" src="../../images/day_7/day.jpeg"></a></p>
 
 
