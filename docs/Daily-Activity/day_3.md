@@ -6,10 +6,11 @@
 Day 3 focused on PCB design for fabrication, specifically the creation of a single-sided microcontroller PCB using KiCad.
 The main objective was to understand the complete workflow from schematic design to PCB layout and preparation for milling and soldering.
 
-### Kicad is a free and open-source PCB design software that supports the entire PCB development cycle, from schematic capture to generating fabrication-ready files.
+### Kicad Software
+**Kicad** is a free and open-source PCB design software that supports the entire PCB development cycle, from schematic capture to generating fabrication-ready files.
 
 
-## KiCad Workflow
+#### KiCad Workflow
 Each step builds on the previous one to ensure a robust and functional final product:
 
     1. Schematic Creation - Define electrical connections.
@@ -18,27 +19,27 @@ Each step builds on the previous one to ensure a robust and functional final pro
     4. Design Rule Check - Validate against manufacturing constraints.
     5. Fabrication Files - Generate outputs for manufacturing.
 
-## Activity - Single-Sided Microcontroller PCB Design (KiCad) 
+### Activity - Single-Sided Microcontroller PCB Design (KiCad) 
 
-### Objective
+#### Objective
 Designing a single-sided PCB using KiCad that:
-   - Uses an ATtiny45 microcontroller
-   - Controls an LED using a push button
-   - Can be programmed via a 6-pin ISP header
-   - Is suitable for PCB milling and hand soldering
+- Uses an ATtiny45 microcontroller
+- Controls an LED using a push button
+- Can be programmed via a 6-pin ISP header
+- Is suitable for PCB milling and hand soldering
 
-### Block Diagram (Conceptual)
+#### Block Diagram (Conceptual)
 
 ![](../images/day_3/block_diagram.png){ width=500 }
 
-### Components Used
+#### Components Specification
 ![](../images/day_3/components.png){ width=500 }
 
-### Design Workflow (KiCad)
+#### Design Workflow (KiCad)
 
 === "Step 1 – Schematic Design"
 
-    The schematic was created in KiCad by placing all components and connecting them correctly according to the circuit design.
+    The schematic was created in KiCad by placing all components and connecting them correctly according to the circuit design specification.
 
 ![](../images/day_3/schematic.png){ width=600 }
 
@@ -47,8 +48,10 @@ Designing a single-sided PCB using KiCad that:
 
     Each component in the schematic was assigned a suitable physical footprint to match the actual components used during fabrication.
 
-![](../images/day_3/sketch4.png){ width=400 }
-![](../images/day_3/sketch3ft.png){ width=400 }
+![](../images/day_3/sketch4.png){ width=500 }
+
+
+![](../images/day_3/footprint.png){ width= 500 }
 
 
 === "Step 3 – PCB Layout (Single-Sided)"
@@ -57,6 +60,7 @@ Designing a single-sided PCB using KiCad that:
     - Arranged components for a single-sided board  
 
 ![](../images/day_3/view.png){ width=400 }
+
 ![](../images/day_3/view2.png){ width=400 }
 
 
@@ -64,17 +68,16 @@ Designing a single-sided PCB using KiCad that:
 
     - Routed tracks manually to avoid overlaps    
     - Ensured the design was suitable for PCB milling  
-    - Verify there were no errors 
+    - Verified there were no errors 
         - No unconnected nets
         - No trace overlap
-        - Correct clearance for milling
 
 ![](../images/day_3/route.png){ width=400 }
 
 
 === "Step 5 – Final Routed Board"
 
-    The final routing was reviewed to confirm all connections were correct and ready for fabrication.
+The final routing was reviewed to confirm all connections were correct and ready for fabrication.
 
 ![](../images/day_3/view_route.png){ width=400 }
 ![](../images/day_3/view2_route.png){ width=400 }
@@ -89,9 +92,8 @@ Designing a single-sided PCB using KiCad that:
     - Good planning reduces routing complexity
     - Designing for fabrication requires thinking ahead, not just connecting nets
 
-
 ---
 
 ## Download Reference 
 
-[📄 Download Microcontroller PCB Design (KiCad Folder)](../files/Microcontroller_PCB_Design.zip){ .md-button .md-button--primary }
+[Download Microcontroller PCB Design (KiCad Folder)](../files/Microcontroller_PCB_Design.zip){ .md-button .md-button--primary }

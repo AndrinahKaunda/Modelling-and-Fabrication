@@ -1,10 +1,10 @@
 # 5. Activity of Day 5 
-                        Digital Fabrication I: CNC & Laser Cutting
+##                      Digital Fabrication I: CNC & Laser Cutting
 
-## Objective
+### Objective
 The objective of this session was to understand the main components of a laser cutter, learn safe operating procedures, and gain practical experience in controlling the machine, designing a cutting file, and performing both engraving and cutting operations.
 
-## Laser Cutter Parts & Operation
+### Laser Cutter Parts & Operation
 
 Laser cutting employs a **high-powered, focused laser beam** to precisely cut, engrave, or mark a wide range of materials. From delicate wood and robust acrylic to plastics, leather, and thin metals, laser technology offers **broad material compatibility**.
 
@@ -13,11 +13,13 @@ Laser cutting employs a **high-powered, focused laser beam** to precisely cut, e
 ![laser](../images/day_5/laser.png){ width=200 align=right }
 
 The laser source (or laser tube) is the core component responsible for generating the laser beam used for cutting and engraving.
-Key Properties: Understanding properties like wavelength, power rating(watts), and whether it's continuous or pulsed is crucial for optimal performance and material compatibility.
+
+Understanding properties like wavelength, power rating(watts), and whether it's continuous or pulsed is crucial for optimal performance and material compatibility.
 
 
-**Motion System:** Precision Movement
-The motion system enables the laser cutter to execute complex designs by precisely controlling the movement of the laser head or the workbed.
+**Motion System:** 
+The motion system enables the laser cutter to execute complex designs by precisely controlling the movement of the laser head on the workbed.
+
 Motors: Stepper or servo motors provide accurate, controlled movement along the X and Y axes, allowing digital designs to be faithfully translated into physical cuts.
 
 **Workbed**: Material Support
@@ -25,10 +27,14 @@ The workbed provides crucial support for materials during the laser cutting and 
 
 **Exhaust & Cooling Systems**
 These vital systems ensure both machine longevity and operator safety by managing byproducts and heat.
+
 - Exhaust System : Removes hazardous smoke, toxic fumes, and particulate debris generated during cutting
 maintaining air quality.
+
 - Cooling System : Prevents the laser tube and other sensitive components from overheating, which can significantly shorten their lifespan.
+
 - Water Cooling : commonly used used for CO₂ laser tubes, circulates cool water to dissipate heat effectively.
+
 - Electronic Cooling : Fans cool power supplies and control electronics, preventing malfunction due to heat buildup.
 
 **Control System & Software**
@@ -37,44 +43,46 @@ The control system translates your digital designs into precise physical actions
 It converts vector and raster design files (e.g., DXF,SVG, AI) into machine-readable commands.
 
 
-### Operations & Safety First
+#### Operations & Safety practices
 some of the safety include:
+
 - do not look at the beam directly
 - never leave an operating laser cutter unattended 
 - do not wear reflective jewerly during alignment
+
 A laser cutter is a sophisticated assembly of interconnected components working together to transform digital designs into physical creations.
 
-## Activity
+### Activity -Laser Cutting
 
-### 1. Accessing the Laser Cutter via IP Address
-The laser cutter was first accessed using its **IP address** through a desktop computer. This allowed remote connection to the machine control interface, where machine status and job control could be monitored.
+#### Implentation
+=== "Step 1 - Machine setup"
 
----
+The laser cutter was checked to ensure its running properly.
 
-### 2. Design Preparation
+Acessed the laser cutter using its **IP address** through a desktop computer. This allowed remote connection to the machine control interface, where machine status and job control could be monitored.
+
+
+=== "Step 2 - Design Preparation"
+
 A sketch was created containing both **engraving** and **cutting** elements. The design was prepared in a suitable format for laser cutting and engraving.
+
+The material was placed on the laser cutter  bed , and the laser focus was checked.
 
 ![Design sketch](../images/day_5/day5_1.jpeg)
 
----
 
-### 3. Machine Setup
-The material was placed on the laser cutter **honeycomb bed**, and the laser focus was checked. Proper ventilation and cooling systems were verified before starting the operation.
 
----
+=== "Step 3 - Engraving"
 
-### 4. Engraving Process
 Engraving was performed first using lower power and appropriate speed to mark the design without cutting through the material.
 
 ![Laser engraving in progress](../images/day_5/Day5_2.jpeg)
 
----
 
-### 5. Cutting Process
+=== "Step 4-  Cutting Process"
 After engraving, the laser parameters were adjusted to higher power  to **cut the final shape** from the material.
 
 ![Final output](../images/day_5/Day5_3.jpeg)
 
-##Reflection:
-**Challenges -** 
+#### Challenges 
 At first, the laser did not cut the material as expected, and sometimes it did not cut at all. Several adjustments to the settings and multiple attempts were needed before the cutting process worked properly.

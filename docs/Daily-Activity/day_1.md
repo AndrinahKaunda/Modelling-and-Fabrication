@@ -24,13 +24,6 @@ The design process is iterative rather than linear, allowing continuous feedback
  - Fabricate: Produce the physical artifact based on the model
  - Evaluate: test it and use feedback to improve the design
 
-### Expected Learning Outcomes
-By the end of this course, students should be able to:
-- integrate modeling and fabrication
-- Understand material behavior
-- Use modeling as a research tool
-- Translate concepts into practical, buildable systems
-
 
 ## Activity 1 – Building a Documentation Website with MkDocs Material  
 
@@ -42,7 +35,7 @@ For this activity, I created a documentation website using MkDocs Material to re
 The site captures course understanding, daily activities, materials used, reflections, and results.
 
 
-#### Web Pages:
+Web Pages:
 
 - **Home** – Contains an introduction and my background
 
@@ -50,7 +43,7 @@ The site captures course understanding, daily activities, materials used, reflec
 
 - **Daily Activity** - Shows my course understanding and activities completed throughout the course
 
-![Daily Activities](../images/day_1/web.png){ width=500}
+![Daily Activities](../images/day_1/web.png){ width=600}
 
 
 
@@ -67,13 +60,13 @@ Uploading MkDocs documentation project to GitHub and publishing it as a live web
 - Created a GitHub repository to host the project  
 - upload MkDocs project files to GitHub : 
 Uploaded the local MkDocs project files to the repository using Git commands in the **Git Bash terminal**, ensuring the files were properly tracked and ready for deployment.
-![git project file](../images/day_1/git.png){ width=500}
+![git project file](../images/day_1/git.png){ width=600}
 
 #### Deploying Website 
 - Enabled GitHub Pages  : Activated the GitHub Pages feature in the repository settings, which allows the project files to be hosted as a live website directly from GitHub.
 - Deployed the site with a public URL : Once GitHub Pages was enabled, the site became accessible online via a public URL, making the documentation available to anyone without needing access to the repository. 
 
-![Daily Activities](../images/day_1/gitpages.png){ width=500}
+![Daily Activities](../images/day_1/gitpages.png){ width=600}
 
 
 - GitHub repository link  
@@ -82,37 +75,8 @@ https://github.com/AndrinahKaunda/Modelling-and-Fabrication.git
 - Live GitHub Pages URL  
 https://andrinahkaunda.github.io/Modelling-and-Fabrication/
 
-- Git Live website
-![Daily Activities](../images/day_1/gitpages.png){ width=500}
-
-## Activity 3 – Documentation Quality & Peer Review  
-### Evaluating Clarity, Reproducibility & Design Thinking
-
-### Objective
-Develop critical evaluation skills by reviewing technical documentation quality.
-
-
-Each review evaluated:
-- Clarity of explanations  
-- Quality of visuals and diagrams  
-- Logical structure and navigation  
-- Ability to reproduce the work from documentation alone  
-
-### Peer Review Criteria
-- Is the process understandable?  
-- Are modeling decisions justified?  
-- Are fabrication constraints clearly explained?  
-- Is the documentation professional and readable?  
-
-### Deliverables
-- Peer review report (1–2 pages)  
-- Constructive written feedback  
-- Suggested improvements  
-
-### Learning Outcome
-Students understood that good documentation enables knowledge transfer and collaboration.
-
-
+#### Result - Git Live Website
+![Daily Activities](../images/day_1/liveSite.png){ width = 600}
 
 
 

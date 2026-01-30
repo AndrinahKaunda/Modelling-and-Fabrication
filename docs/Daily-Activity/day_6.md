@@ -17,7 +17,7 @@ layer.
 
 ### Main Components 
 - **Print Head:** Houses the nozzle, feeder, and cooling fans responsible for material extrusion.
-- **Filament System:** ncludes the spool holder and feeder gears that guide the filament to the print head.  
+- **Filament System:** includes the spool holder and feeder gears that guide the filament to the print head.  
 - **Build Plate:** The surface where your object is printed, often glass and heated for adhesion.
 - **Motion System:** Controls the precise movement of the print head and build plate along the X, Y, and Z axes.  
 - **Control & Electronics:** The screen and internal electronics manage all printer functions and user interaction.
@@ -26,15 +26,15 @@ layer.
 
 ## Implementation
 
-### tools used:
+### Tools used
 - 3D printer Ultimaker 
 - Ultimaker Cura software 
 
 ### Printer Setup & Calibration
-- **Load Filament:** Feed filament properly into extruder  
-- **Level Build Plate:** Ensure flatness for even first layers  
-- **Clean Build Surface:** Remove oils/debris with isopropyl alcohol  
-- **Preheat Printer:** Nozzle and bed reach target temperatures 
+- Load Filament: Feed filament properly into extruder  
+- Level Build Plate: Ensure flatness for even first layers  
+- Clean Build Surface: Remove oils/debris with isopropyl alcohol  
+- Preheat Printer: Nozzle and bed reach target temperatures 
 - Test Print
 
 
@@ -48,8 +48,8 @@ layer.
 
 
 === "Step 2 - Key Slicing Settings"
-- Adjusting slicing settings can reduce the size, material usage, and printing time
-- the save file in USB (disk)
+- Adjust slicing settings, this can reduce the size, material usage, and printing time
+- when desired setting is reached, save file in USB (disk)
 
 ![Sliced](../images/day_6/slicing.png)
 
@@ -71,7 +71,7 @@ layer.
 ## Observation
 
 - When printing a 3D object that is not flat, it often produces a complex mesh of printed lines.
-- The printer takes time in building the structure.
+- The printer takes its time in building the structure.
 
 
 

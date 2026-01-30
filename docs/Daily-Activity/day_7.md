@@ -1,173 +1,99 @@
 # 7. Activity of Day 7
-            
-
-## PCB Milling  & Cutting
-
-PCB milling is a subtractive fabrication process that that carves circuits from copper-clad board .
-Designing with milling in mind ensures a smooth transition from digital concept to physical board. 
-milling-friendly designs are typically single-sided to simplify the process.
-Prioritize through-hole or large SMD components due to tool size limitations.
-Key considerations include tool size, trace spacing, and board thickness.
-Always design for the machine, not just the circuit – this is paramount for successful
-milling.
-
-### The Essence of PCB Milling
-
-PCB milling allows you to:
-
-- precisely removed from a copper-clad board to define the circuit (0 subtractive Process).  
-- Rapidly prototype and test designs in-house.  
-- Fabricate boards independently without waiting for external manufacturers.  
-
-
-## Understanding Traces, Clearance, Pads & Vias
-
-
-1. Trace Width- Affects current carrying capacity and machinability. Wider traces
-are more robust.
-2. Clearance- The isolation space between traces and copper areas. Crucial for
-preventing shorts.
-3. Pads- Must be sufficiently large to ensure reliable soldering and
-structural integrity.
-4. Vias -Often challenging to mill, consider replacing with jumpers for
-simpler prototypes.
-
-
-
-### Milling, Drilling & Board Profiling
-The physical fabrication involves three distinct stages, each requiring precision and proper sequencing.
-- Trace Isolation :The milling tool removes copper around
-traces, creating the circuit paths.
-- Hole Drilling: Precise holes are drilled for component leads and vias.
-- Board Profiling: The final step, cutting the complete PCB outline from the stock material
-
-## Actual Implementation – PCB Milling
-
-
-!!! info "Recap" 
-
-For this session, the work is built upon **Day 3**, where we created the PCB design file in KiCad . we designed esigning a single-sided PCB using KiCad that:
-   - Uses an ATtiny45 microcontroller
-   - Controls an LED using a push button
-   - Can be programmed via a 6-pin ISP header
-![](../images/day_3/view2_route.png){ width=400 }
-suitable for PCB milling and soldering This project  file included the schematic, component placement, and routed tracks, which were verified and prepared for fabrication.  we will use this same file as the basis for Pcb milling 
-
-
-
-
-
-== "step1:" 
-- mounted the milling tool to machine. 
-- download and install carbide motion 
-- in the project folder (Microcontroller_PCB_Design- in our case) you will find gerber folder with gerber files.
-- connect cutter to carbide mortion
-- import the gerber file into carbide motion and carbide motion  which makes the files into into one file which will be used.
-- Then adjusted the postion of the cutter tool so it mill the pcb routes , adjust depth , speed 
-
-
-== "step2:" 
-
--A copper-clad board was securely mounted on the cutter bed using cell tape , and the machine origin was set correctly.
-- once all conficurion are done it  Engraved the copper traces according to the design 
-## Milling the Traces
-![](../images/day_7/day7_1.jpeg)
-
-step 3:
-
-- once that is done chande the milling tool (spindle) use the one for Cut the board outline
-### Cutting the Board Outline
-![](../images/day_7/day7_2.jpeg)
-
-== "Result" 
-- resulting in a fabricated PCB ready for cleaning and component soldering.
-
-### Result
-![](../images/day_7/day.jpeg)
-
-
-
-
-
-
-
-# 7. Activity of Day 7
 
 ## PCB Milling & Cutting
 
-PCB milling is a subtractive fabrication process that carves circuits from a copper-clad board.   
+PCB milling is a **subtractive fabrication process** hat carves circuits from a copper-clad board.
+
+Designing with milling in mind ensures a smooth transition from the digital PCB design to a functional physical board.
+
+Milling-friendly designs are typically **single-sided** to simplify fabrication and reduce errors.  
+Due to tool size limitations, **through-hole components or large SMD components** are preferred.  
+Key design considerations include **tool diameter, trace spacing, clearance, and board thickness**.
 
 
 ### The Essence of PCB Milling
 
-PCB milling allows you to:
+PCB milling allows designers to:
 
-- Precisely remove material from a copper-clad board to define the circuit (**subtractive process**).  
-- Rapidly prototype and test designs in-house.  
-- Fabricate boards independently without waiting for external manufacturers.  
+- Precisely remove copper from a copper-clad board to define circuit traces (**subtractive process**).  
+- Rapidly prototype and test PCB designs in-house.  
+- Fabricate boards independently without relying on external manufacturers, reducing time and cost.
 
 
 ### Understanding Traces, Clearance, Pads & Vias
 
-1. **Trace Width** – Affects current carrying capacity and machinability. Wider traces are more robust.  
-2. **Clearance** – The isolation space between traces and copper areas. Crucial for preventing shorts.  
-3. **Pads** – Must be sufficiently large to ensure reliable soldering and structural integrity.  
-4. **Vias** – Often challenging to mill; consider replacing with jumpers for simpler prototypes.  
+1. **Trace Width**  
+   Determines current-carrying capacity and machinability. Wider traces are stronger and easier to mill.
 
----
+2. **Clearance**  
+   Maintains isolation between traces and copper areas to prevent short circuits.
 
-### Milling, Drilling & Board Profiling
+3. **Pads**  
+   Are large enough to support reliable soldering and maintain mechanical stability.
 
-The physical fabrication involves three distinct stages:
+4. **Vias**  
+   Are difficult to mill on single-sided boards and are often replaced with wire jumpers in prototypes.
 
-- **Trace Isolation** – The milling tool removes copper around traces, creating the circuit paths.  
-- **Hole Drilling** – Precise holes are drilled for component leads and vias.  
-- **Board Profiling** – The final step, cutting the complete PCB outline from the stock material.  
 
----
 
-## Actual Implementation – PCB Milling
+### Phyical fabrication process
+
+Phyical fabrication  involves three main stages:
+
+- Trace Isolation– The milling tool removes copper around traces, creating the circuit paths.  
+- Hole Drilling – Holes are drilled for component leads and mounting points.  
+- Board Profiling – The PCB outline is cut to separate the board from the raw material.
+
+
+## Implementation 
 
 !!! info "Recap from Day 3"
-    This session builds upon **Day 3**, where we created a single-sided PCB design in KiCad:  
-    - Used ATtiny45 microcontroller  
-    - LED controlled by a push button  
+    This activity builds on **Day 3**, where a single-sided PCB is designed in KiCad:
+    
+    - ATtiny45 microcontroller  
+    - LED controlled using a push button  
     - 6-pin ISP header for programming  
-    ![](../images/day_3/view2_route.png){ width=400 }  
-The schematic, component placement, and routed tracks were verified and prepared for fabrication.  
-We will use this same file as the basis for PCB milling.
+    
+    ![](../images/day_3/view2_route.png){ width=400 }
 
+    The schematic, component placement, and routed tracks are verified and prepared for fabrication.  
+    This same design file is used for the PCB milling process.
 
 
 == "Step 1: Preparation"
 
-- Mount the milling tool.  
-- Secure the copper-clad board on the cutter bed using cell tape.  
-- Download and install **Carbide Motion**.  
-- In the project folder (`Microcontroller_PCB_Design`), locate the `gerber` folder with Gerber files.  
-- Connect the cutter to Carbide Motion.  
-- Import the Gerber files into Carbide Motion; it combines them into one file for milling.  
-- Adjust the **cutter tool position**, depth, and speed configuration.  
-
+- The milling tool is mounted onto the machine.  
+- **Carbide Motion** software is downloaded and installed.  
+- The copper-clad board is secured on the cutter bed using double-sided tape.  
+- In the project folder (in our case :Microcontroller_PCB_Design), the **Gerber folder** containing Gerber files is located.  
+- The cutter is connected to Carbide Motion.  
+- Gerber files are imported into Carbide Motion, which combines them into a single milling job.  
+- Tool position, cutting depth, and speed parameters are carefully configured in Carbide motion.  
 
 
 == "Step 2: Milling the Traces"
 
-- Set the machine origin correctly.  
-- Once all configuration is done, engrave the copper traces according to the design.  
-![Milling](../images/day_7/day7_1.jpeg)
+- The machine origin is set correctly.  
+- Once all configurations are verified, the machine engraves the copper traces according to the PCB design.  
 
+![Milling Traces](../images/day_7/day7_1.jpeg)
+
+---
 
 == "Step 3: Cutting the Board Outline"
-- Change the milling tool (spindle) to the one used for cutting the board outline.
-- adjust adjust the cutter tool again (e.g position)
 
-![Cutting](../images/day_7/day7_2.jpeg)
+- The milling bit is changed to the tool used for board profiling.  
+- Tool position and depth are re-adjusted.  
+- The machine cuts the PCB outline from the copper-clad board.  
 
+![Cutting Outline](../images/day_7/day7_2.jpeg)
+
+---
 
 == "Result"
 
-- The final PCB is ready for **cleaning and component soldering**.  
+- The final PCB is successfully fabricated.  
+- The board is ready for cleaning and component soldering.  
 
-### Result
+### Final PCB
 ![](../images/day_7/day.jpeg)
