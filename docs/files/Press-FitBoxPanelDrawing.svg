@@ -25,20 +25,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="307.13826"
-     inkscape:cy="817.03246"
+     inkscape:zoom="1.9561737"
+     inkscape:cx="375.04987"
+     inkscape:cy="784.6846"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      inkscape:snap-center="false"
-     inkscape:window-width="956"
-     inkscape:window-height="1081"
-     inkscape:window-x="-9"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0">
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid22" />
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,12 +76,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 93.835617,95.933203 h 6.614583 v 1.211813 h 3.96875 v -1.211813 h 6.61459 V 82.6875 H 96.572917 A 1.3229165,1.3229165 0 0 0 95.253102,81.459151 1.3229165,1.3229165 0 0 0 93.934836,82.6875 h -0.09922 z M 94.497076,82.6875 a 0.6614583,0.6614583 0 0 1 0.661458,-0.661458 0.6614583,0.6614583 0 0 1 0.661458,0.661458 0.6614583,0.6614583 0 0 1 -0.661458,0.661459 0.6614583,0.6614583 0 0 1 -0.661458,-0.661459 z m 0.661458,13.229167 V 90.625 h 1.322917 v 5.291667 z m 13.229166,0 V 90.625 h 1.32292 v 5.291667 z"
-       id="rect3741"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;stroke-linecap:square;stroke-linejoin:round"
-       d="M 64.161458,83.348916 A 1.3229165,1.3229165 0 0 0 62.838541,82.026 1.3229165,1.3229165 0 0 0 61.515624,83.348916 H 46.963541 v 13.229167 h 1.322917 v -5.291667 h 1.322916 v 5.291667 h 3.96875 v 1.322916 h 3.96875 v -1.322916 h 3.96875 v -5.291667 h 1.322917 v 5.291667 h 1.322917 z m -0.661459,0 a 0.6614583,0.6614583 0 0 1 -0.661458,0.661459 0.6614583,0.6614583 0 0 1 -0.661458,-0.661459 0.6614583,0.6614583 0 0 1 0.661458,-0.661458 0.6614583,0.6614583 0 0 1 0.661458,0.661458 z"
+       d="M 64.161459,82.6875 A 1.3229165,1.3229165 0 0 0 62.838542,81.364584 1.3229165,1.3229165 0 0 0 61.515625,82.6875 H 46.963542 v 13.229167 h 1.322917 V 90.625 h 1.322916 v 5.291667 h 3.96875 v 1.322916 h 3.96875 v -1.322916 h 3.96875 V 90.625 h 1.322917 v 5.291667 h 1.322917 z m -0.661459,0 A 0.6614583,0.6614583 0 0 1 62.838542,83.348959 0.6614583,0.6614583 0 0 1 62.177084,82.6875 0.6614583,0.6614583 0 0 1 62.838542,82.026042 0.6614583,0.6614583 0 0 1 63.5,82.6875 Z"
        id="rect3743"
        inkscape:connector-curvature="0" />
     <path
@@ -89,5 +84,10 @@
        d="m 67.46875,44.322917 v 1.322916 h 1.322917 V 46.96875 H 67.46875 V 61.520833 H 87.3125 V 46.96875 H 85.989583 V 45.645833 H 87.3125 v -1.322916 z"
        id="rect3787"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path937"
+       d="m 91.281243,82.6875 a 1.3229165,1.3229165 0 0 1 1.32292,-1.322916 1.3229165,1.3229165 0 0 1 1.32292,1.322916 h 14.552077 v 13.229167 h -1.32292 V 90.625 h -1.32291 v 5.291667 h -3.96875 v 1.322916 h -3.968747 v -1.322916 h -3.96875 V 90.625 h -1.32292 v 5.291667 h -1.32292 z m 0.66146,0 a 0.6614583,0.6614583 0 0 0 0.66146,0.661459 0.6614583,0.6614583 0 0 0 0.66146,-0.661459 0.6614583,0.6614583 0 0 0 -0.66146,-0.661458 0.6614583,0.6614583 0 0 0 -0.66146,0.661458 z"
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

@@ -95,7 +95,7 @@ The following steps describe the process used to model the **L-Shaped Mounting B
 
 ### Download reference
 
-[📄 Download the FabLab Day 2 Activity 1](../downloads/Day2_Activity1.FCStd){: .md-button }
+[Download the FabLab Day 2 Activity 1](../files/Day2_Activity1.FCStd){: .md-button }
 
 ---
 
@@ -152,9 +152,10 @@ Key considerations:
 === "Result"
 
 ![Final result](../images/day_2/activity2/result.png){width=500 }
+![Final result](../images/day_2/activity2/result2.png){width=500 }
 
 
 ---
 
 ### Download Reference - activity 2
-[📄 Download Press-Fit Box Panel (Inkscape File)](../downloads/Press-FitBoxPanelDrawing.svg){: .md-button :download }
+[Download Press-Fit Box Panel (Inkscape File)](../files/Press-FitBoxPanelDrawing.svg){: .md-button }
