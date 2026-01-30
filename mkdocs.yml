@@ -1,5 +1,6 @@
-site_name: Andrinh Kaunda FabLab Documetation site
-site_description: Andrinh Kaunda FabLab Documetation site
+# Replace the text below to customize your site
+site_name: Andrinah Kaunda FabLab Documetation site
+site_description: Andrinah Kaunda FabLab Documetation site
 site_author: Andrinah Kaunda
 copyright: Copyright 2026 Andrinah Kaunda - Creactive Commons Attribution Non-commercial
 
@@ -8,11 +9,16 @@ repo_url: https://github.com/AndrinahKaunda/Modelling-and-Fabrication.git
 repo_name: Modelling-and-Fabrication
 
 extra:
-  social: 
+  social:
+    # Change to your own social media or remove line to hide. 
     # For more social icons ideas at https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
-    - icon: fontawesome/brands/linkedin
-      link: www.linkedin.com/in/andrinah-kaunda-358397222
-    
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/fablab_rwanda
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/KigaliFabLab
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fablabrw
+
 theme:
   # The name of the theme, needs to match your requirements.txt file
   name: material
@@ -63,4 +69,4 @@ markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
-  - meta
+  - meta 
