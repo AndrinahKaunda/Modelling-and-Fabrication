@@ -1,78 +1,89 @@
 # 1. Activity of Day 1
 
-                          Foundations of Modeling & Fabrication
+## Foundations of Modeling & Fabrication
 
-## Overview
+Modeling and Fabrication are inseparable parts of the design process, where computational thinking, material knowledge, and production methods all influence outcomes. Designing is not just about creating forms on a screen, it requires considering how ideas will physically manifest, making fabrication a central factor in shaping design decisions.
 
-Day 1 involved introduction to  foundational concepts of digital modeling, fabrication workflows, and technical documentation.
-The focus was not on building a physical object, but on understanding why documentation is a critical part of the design and fabrication process.
-The focus was on learning how to **document design and fabrication processes professionally** using **MkDocs with the Material theme**.
+
+**Modeling** is more than representing shapes;
+It represnts form, logic, behavior, and intelligence. 
+
+There are different approaches, including:
+- Geometric Modelling
+- parametric & rule-based modelling
+- simulation & data-driven Modelling
+    
+
+**Fabrication** transforms these models into physical artifacts, using understanding of materials, machines, and processes.
+
+### Design-to-Fabrication Process
+The design process is iterative rather than linear, allowing continuous feedback at every stage. It typically follows these steps:
+ - Idea :  Conceptualize the design goals and requirements
+ - Model : Creating digital or representations of the design
+ - Prototype: Build initial version
+ - Fabricate: Produce the physical artifact based on the model
+ - Evaluate: test it and use feedback to improve the design
+
+### Expected Learning Outcomes
+By the end of this course, students should be able to:
+- integrate modeling and fabrication
+- Understand material behavior
+- Use modeling as a research tool
+- Translate concepts into practical, buildable systems
 
 
 ## Activity 1 – Building a Documentation Website with MkDocs Material  
-### Documenting Design & Fabrication Processes
 
-### Objective
-Enable students to document modeling and fabrication work professionally using a static documentation website.
+Documentation is a critical part of the design and fabrication process.
 
-### Task Description
-Students were required to create a documentation website using **MkDocs Material** to document their digital modeling and fabrication learning process.
+### About  Website 
 
-The website documents:
-- Course understanding  
-- Design decisions  
-- Modeling workflow  
-- Fabrication considerations  
-- Reflections and outcomes  
+For this activity, I created a documentation website using MkDocs Material to record my digital modeling and fabrication learning journey. 
+The site captures course understanding, daily activities, materials used, reflections, and results.
 
-### Required Pages
-At minimum, the site must include:
-- **Home** – course overview & student introduction  
-- **Digital Modeling** – modeling approach, screenshots, files  
-- **Fabrication Logic** – machines, materials, constraints  
-- **Prototyping & Iteration** – tests, failures, improvements  
-- **Reflection** – lessons learned & critical analysis  
 
-### Technical Requirements
-- MkDocs with Material theme  
-- Markdown-based content  
-- Images, diagrams, and captions  
-- Clear navigation structure  
+#### Web Pages:
 
-### Deliverables
-- Local MkDocs project folder  
-- Live preview of the documentation site  
+- **Home** – Contains an introduction and my background
 
-### Learning Outcome
-Students learn that documentation is part of the design process, not an afterthought.
+![Home](../images/day_1/landin.jpeg){ width=500}
 
----
+- **Daily Activity** - Shows my course understanding and activities completed throughout the course
 
-## Activity 2 – Publishing Documentation via GitHub Pages  
+![Daily Activities](../images/day_1/web.png){ width=500}
+
+
+
+## Activity 2 – Publishing Documentation via GitHub Pages 
+
 ### From Local Project to Public Knowledge
 
-### Objective
-Teach students how to publish and share technical documentation using **GitHub** and **GitHub Pages**.
+In this activity, I have learned how to publish and share technical documentation site using GitHub and GitHub Pages. This allowed the documentation created locally to be accessed as a live website by anyone online.
 
 ### Task Description
-Students uploaded their MkDocs documentation project to GitHub and published it as a live website using GitHub Pages.
+Uploading MkDocs documentation project to GitHub and publishing it as a live website using GitHub Pages.
 
-### Steps Completed
-- Created a GitHub repository  
-- Pushed MkDocs project files to GitHub  
-- Configured repository structure  
-- Enabled GitHub Pages  
-- Deployed the site with a public URL  
+#### Uploading local documentation site to Github
+- Created a GitHub repository to host the project  
+- upload MkDocs project files to GitHub : 
+Uploaded the local MkDocs project files to the repository using Git commands in the **Git Bash terminal**, ensuring the files were properly tracked and ready for deployment.
+![git project file](../images/day_1/git.png){ width=500}
 
-### Submission Requirements
+#### Deploying Website 
+- Enabled GitHub Pages  : Activated the GitHub Pages feature in the repository settings, which allows the project files to be hosted as a live website directly from GitHub.
+- Deployed the site with a public URL : Once GitHub Pages was enabled, the site became accessible online via a public URL, making the documentation available to anyone without needing access to the repository. 
+
+![Daily Activities](../images/day_1/gitpages.png){ width=500}
+
+
 - GitHub repository link  
+https://github.com/AndrinahKaunda/Modelling-and-Fabrication.git
+
 - Live GitHub Pages URL  
-- Screenshot of deployed website  
+https://andrinahkaunda.github.io/Modelling-and-Fabrication/
 
-### Learning Outcome
-Students gained skills in version control, open documentation, and reproducible workflows.
-
----
+- Git Live website
+![Daily Activities](../images/day_1/gitpages.png){ width=500}
 
 ## Activity 3 – Documentation Quality & Peer Review  
 ### Evaluating Clarity, Reproducibility & Design Thinking
@@ -80,8 +91,6 @@ Students gained skills in version control, open documentation, and reproducible 
 ### Objective
 Develop critical evaluation skills by reviewing technical documentation quality.
 
-### Task Description
-Students performed a peer review of another student’s documentation website.
 
 Each review evaluated:
 - Clarity of explanations  

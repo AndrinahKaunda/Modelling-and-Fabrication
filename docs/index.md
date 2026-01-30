@@ -5,9 +5,8 @@ glightbox: false
 # My documentation
 
 Welcome to my digital fabrication and modeling documentation website.  
-This site documents my learning process, design decisions, and fabrication workflows throughout the course.
 
-The documentation is built using **MkDocs with the Material theme** and version-controlled using **GitHub**, allowing changes to be tracked and published continuously.
+This site serves as a record of my learning process, design workflows, and practical work completed throughout the  Modelling and Fabrication course.
 
 
 
@@ -16,17 +15,13 @@ The documentation is built using **MkDocs with the Material theme** and version-
 ![](./images/profile.jpg){ width=200 align=right }
 
 Hi! My name is **Andrinah Kaunda**.  
-I am a technology enthusiast with a background in **Computer Science**.
-
-I am passionate about combining **design, electronics, and fabrication** to build practical and innovative solutions.  
-This website serves as a record of my learning journey, experiments, and reflections during the course.
-
+I am a Master’s student pursuing a degree in IoT Embedded Computing Systems at the University of Rwanda, African Centre of Excellence.
+My main areas of interest are machine learning and cybersecurity, which I plan to integrate with IoT during my time here.
 
 ## My background
 
-I am originally from Malawi. 
-i hold a Bachelor of Science Degree in Computer Science.
-i am Current pursuing a Master of Science degree in Internet of Things: Embedded Computing Systems at the University of Rwanda , African Centre Of Excellence
+I am originally from Malawi and I hold a Bachelor of Science Degree in Computer Science from the University of Malawi.
+
 
 <!-- This below clears both sides under "aligned" images - see two images above.
 Can also be used just as "clear: right;" rather than "clear: both;", if you are using an image on the right, for example.
