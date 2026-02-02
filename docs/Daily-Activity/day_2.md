@@ -158,4 +158,4 @@ Key considerations:
 ---
 
 ### Download Reference - activity 2
-[Download Press-Fit Box Panel (Inkscape File)](../files/Press-FitBoxPanelDrawing.svg){: .md-button }
+[Download Press-Fit Box Panel (zipped Inkscape File )](../files/Press-FitBoxPanelDrawing.zip){: .md-button }

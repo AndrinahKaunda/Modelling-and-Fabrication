@@ -92,8 +92,8 @@ The final routing was reviewed to confirm all connections were correct and ready
     - Good planning reduces routing complexity
     - Designing for fabrication requires thinking ahead, not just connecting nets
 
----
+
 
 ## Download Reference 
 
-[Download Microcontroller PCB Design (KiCad Folder)](../files/Microcontroller_PCB_Design.zip){ .md-button .md-button--primary }
+[Download Microcontroller PCB Design (KiCad zipped Folder)](../files/Microcontroller_PCB_Design.zip){ .md-button .md-button--primary }

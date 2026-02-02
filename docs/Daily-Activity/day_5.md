@@ -55,6 +55,7 @@ A laser cutter is a sophisticated assembly of interconnected components working 
 ### Activity -Laser Cutting
 
 #### Implentation
+
 === "Step 1 - Machine setup"
 
 The laser cutter was checked to ensure its running properly.

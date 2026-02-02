@@ -41,11 +41,11 @@ Web Pages:
 
 - **Home** – Contains an introduction and my background
 
-![Home](../images/day_1/landin.jpeg){ width=500}
+![Home](../images/day_1/landin.jpeg){ width=600}
 
 - **Daily Activity** - Shows my course understanding and activities completed throughout the course
 
-![Daily Activities](../images/day_1/web.png){ width=600}
+![Daily Activities](../images/day_1/web.png){ width=700}
 
 
 
@@ -95,5 +95,5 @@ We also worked together during some labs, and through collaboration and discussi
 
 Overall, her documentation reflected **good design thinking, clarity, and technical understanding**, making it a strong example of effective course documentation.
 
-![Peer Review – Nomsa’s Website](../images/day_1/nomsa.jpeg){ width=400 }
+![Peer Review – Nomsa’s Website](../images/day_1/nomsa.jpeg){ width=700 }
 
