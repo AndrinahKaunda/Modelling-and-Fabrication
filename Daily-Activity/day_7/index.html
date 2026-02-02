@@ -906,9 +906,7 @@
 <h2 id="pcb-milling-cutting">PCB Milling &amp; Cutting<a class="headerlink" href="#pcb-milling-cutting" title="Permanent link">¶</a></h2>
 <p>PCB milling is a <strong>subtractive fabrication process</strong> hat carves circuits from a copper-clad board.</p>
 <p>Designing with milling in mind ensures a smooth transition from the digital PCB design to a functional physical board.</p>
-<p>Milling-friendly designs are typically <strong>single-sided</strong> to simplify fabrication and reduce errors.<br>
-Due to tool size limitations, <strong>through-hole components or large SMD components</strong> are preferred.<br>
-Key design considerations include <strong>tool diameter, trace spacing, clearance, and board thickness</strong>.</p>
+<p>Milling-friendly designs are typically <strong>single-sided</strong> to simplify fabrication and reduce errors.  </p>
 <h3 id="the-essence-of-pcb-milling">The Essence of PCB Milling<a class="headerlink" href="#the-essence-of-pcb-milling" title="Permanent link">¶</a></h3>
 <p>PCB milling allows designers to:</p>
 <ul>
@@ -963,7 +961,7 @@ This same design file is used for the PCB milling process.</p>
 <li>In the project folder (in our case :Microcontroller_PCB_Design), the <strong>Gerber folder</strong> containing Gerber files is located.  </li>
 <li>The cutter is connected to Carbide Motion.  </li>
 <li>Gerber files are imported into Carbide Motion, which combines them into a single milling job.  </li>
-<li>Tool position, cutting depth, and speed parameters are carefully configured in Carbide motion.  </li>
+<li>Tool position, and  cutting depth are carefully configured in Carbide motion.  </li>
 </ul>
 <p>== "Step 2: Milling the Traces"</p>
 <ul>
@@ -971,7 +969,6 @@ This same design file is used for the PCB milling process.</p>
 <li>Once all configurations are verified, the machine engraves the copper traces according to the PCB design.  </li>
 </ul>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_1.jpeg" data-desc-position="bottom"><img alt="Milling Traces" src="../../images/day_7/day7_1.jpeg"></a></p>
-<hr>
 <p>== "Step 3: Cutting the Board Outline"</p>
 <ul>
 <li>The milling bit is changed to the tool used for board profiling.  </li>
@@ -979,7 +976,6 @@ This same design file is used for the PCB milling process.</p>
 <li>The machine cuts the PCB outline from the copper-clad board.  </li>
 </ul>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../images/day_7/day7_2.jpeg" data-desc-position="bottom"><img alt="Cutting Outline" src="../../images/day_7/day7_2.jpeg"></a></p>
-<hr>
 <p>== "Result"</p>
 <ul>
 <li>The final PCB is successfully fabricated.  </li>
