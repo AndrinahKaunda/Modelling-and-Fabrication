@@ -7,8 +7,6 @@ PCB milling is a **subtractive fabrication process** hat carves circuits from a 
 Designing with milling in mind ensures a smooth transition from the digital PCB design to a functional physical board.
 
 Milling-friendly designs are typically **single-sided** to simplify fabrication and reduce errors.  
-Due to tool size limitations, **through-hole components or large SMD components** are preferred.  
-Key design considerations include **tool diameter, trace spacing, clearance, and board thickness**.
 
 
 ### The Essence of PCB Milling
@@ -68,7 +66,7 @@ Phyical fabrication  involves three main stages:
 - In the project folder (in our case :Microcontroller_PCB_Design), the **Gerber folder** containing Gerber files is located.  
 - The cutter is connected to Carbide Motion.  
 - Gerber files are imported into Carbide Motion, which combines them into a single milling job.  
-- Tool position, cutting depth, and speed parameters are carefully configured in Carbide motion.  
+- Tool position, and  cutting depth are carefully configured in Carbide motion.  
 
 
 == "Step 2: Milling the Traces"
@@ -78,7 +76,7 @@ Phyical fabrication  involves three main stages:
 
 ![Milling Traces](../images/day_7/day7_1.jpeg)
 
----
+
 
 == "Step 3: Cutting the Board Outline"
 
@@ -88,7 +86,7 @@ Phyical fabrication  involves three main stages:
 
 ![Cutting Outline](../images/day_7/day7_2.jpeg)
 
----
+
 
 == "Result"
 

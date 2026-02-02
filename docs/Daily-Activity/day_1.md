@@ -2,7 +2,9 @@
 
 ## Foundations of Modeling & Fabrication
 
-Modeling and Fabrication are inseparable parts of the design process, where computational thinking, material knowledge, and production methods all influence outcomes. Designing is not just about creating forms on a screen, it requires considering how ideas will physically manifest, making fabrication a central factor in shaping design decisions.
+Modeling and Fabrication are inseparable parts of the design process, where computational thinking, material knowledge, and production methods all influence outcomes. 
+
+Designing is not just about creating forms on a screen, it requires considering how ideas will physically manifest, making fabrication a central factor in shaping design decisions.
 
 
 **Modeling** is more than representing shapes;
@@ -79,4 +81,19 @@ https://andrinahkaunda.github.io/Modelling-and-Fabrication/
 ![Daily Activities](../images/day_1/liveSite.png){ width = 600}
 
 
+
+
+## Activity 3 – Peer Review
+
+For this activity, I reviewed **Nomsa Ndlozi’s documentation website** .
+
+Nomsa did a really good job in presenting her work and demonstrated a **strong understanding of the overall course content**. Her documentation clearly explained the modeling and fabrication concepts and the process she went through in designing.
+
+All the required exercises were completed and documented excellently. The workflow across the pages was clear, logical, and easy to follow, making the documentation reproducible for someone new to the course.
+
+We also worked together during some labs, and through collaboration and discussion, we were able to clarify concepts and support each other in different ways.
+
+Overall, her documentation reflected **good design thinking, clarity, and technical understanding**, making it a strong example of effective course documentation.
+
+![Peer Review – Nomsa’s Website](../images/day_1/nomsa.jpeg){ width=400 }
 
