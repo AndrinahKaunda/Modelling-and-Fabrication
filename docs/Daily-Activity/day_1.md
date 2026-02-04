@@ -11,15 +11,18 @@ Designing is not just about creating forms on a screen, it requires considering 
 It represnts form, logic, behavior, and intelligence. 
 
 There are different approaches, including:
-- Geometric Modelling
-- parametric & rule-based modelling
-- simulation & data-driven Modelling
+- Geometric Modelling: This approach focuses on creating shapes using basic geometry such as points, lines, surfaces, and solids. It defines the exact form and dimensions of an object.
+
+- parametric & rule-based modelling :  In this approach, models are created using parameters, constraints, and rules. Dimensions and relationships are defined so that changing one value automatically updates the entire model.
+
+- simulation & data-driven Modelling : This method uses data and simulations to predict how a design will behave under real-world conditions.
     
 
 **Fabrication** transforms these models into physical artifacts, using understanding of materials, machines, and processes.
 
 ### Design-to-Fabrication Process
 The design process is iterative rather than linear, allowing continuous feedback at every stage. It typically follows these steps:
+
  - Idea :  Conceptualize the design goals and requirements
  - Model : Creating digital or representations of the design
  - Prototype: Build initial version
